@@ -86,7 +86,6 @@ def _impl(ctx):
                     flag_group(flags = ctx.attr.copts + [
                         "-fno-canonical-system-headers",
                         "-no-canonical-prefixes",
-                        "-nostdinc",
                     ]),
                 ],
             ),
