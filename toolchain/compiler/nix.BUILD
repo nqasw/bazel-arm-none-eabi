@@ -23,7 +23,7 @@ filegroup(
         "arm-none-eabi/**",
         "lib/**",
         "lib/gcc/arm-none-eabi/**",
-    ]),
+    ], allow_empty=True),
 )
 
 # files for executing compiler.
